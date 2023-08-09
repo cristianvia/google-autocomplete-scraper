@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscador de Sugerencias</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ingrese la keyword que quieras autocompletar</h1>
+      <form id="searchForm">
+        <label for="frase">Frase:</label>
+        <input type="text" id="frase" name="frase" required />
+        <button type="submit">Buscar</button>
+        <button id="descargar" disabled>Descargar CSV</button>
+      </form>
+      <div id="resultados"></div>
+    </div>
+  </body>
+</html>
